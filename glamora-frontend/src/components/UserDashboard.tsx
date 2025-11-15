@@ -97,7 +97,8 @@ const UserDashboard: React.FC<UserDashboardProps> = ({ account }) => {
       console.log('💰 Purchasing content ID:', contentId);
       
       const priceInWei = ethers.utils.parseEther(price);
-      const tx = await contentPayment.purchaseContent(contentId, {
+      
+      const tx = await contentPayment.purchaseContent(account, contentId, {
         value: priceInWei
       });
 
