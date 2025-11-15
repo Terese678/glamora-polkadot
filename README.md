@@ -3,7 +3,7 @@
 
 A decentralized content marketplace empowering fashion creators through blockchain technology.
 
-Built on Moonbeam | Powered by IPFS | Secured by Smart Contracts
+**Built on Moonbeam | Powered by IPFS | Secured by Smart Contracts**
 
 ---
 
@@ -11,7 +11,7 @@ Built on Moonbeam | Powered by IPFS | Secured by Smart Contracts
 
 As a fashion enthusiast and designer, I've watched talented creators lose 30-50% of their earnings to centralized platforms. Instagram, TikTok, Patreon - they all take massive cuts while controlling what you post, who sees it, and whether it stays up.
 
-I asked myself: **What if creators could own their content, set their own prices, and keep 100% of their earnings?**
+I asked myself: What if creators could own their content, set their own prices, and keep 100% of their earnings?
 
 That's how Glamora was born.
 
@@ -23,7 +23,7 @@ Fashion creators face multiple barriers:
 
 **High Platform Fees**
 - YouTube takes 45%
-- Patreon takes 12%  
+- Patreon takes 12%
 - OnlyFans takes 20%
 
 **No True Ownership**
@@ -39,7 +39,7 @@ Fashion creators face multiple barriers:
 - Content removed without warning
 - No appeals process
 
-**Delayed Payments**  
+**Delayed Payments**
 - Wait weeks for earnings
 - High withdrawal minimums
 
@@ -49,11 +49,11 @@ Fashion creators face multiple barriers:
 
 Glamora provides:
 
-✅ **Near-Zero Fees** - Only gas costs (pennies on Moonbeam)  
-✅ **True Ownership** - Content on IPFS, records on blockchain  
-✅ **Direct Discovery** - No algorithm middleman  
-✅ **Censorship Resistant** - Immutable blockchain records  
-✅ **Instant Payments** - Withdraw earnings anytime  
+- ✅ **Near-Zero Fees** - Only gas costs (pennies on Moonbeam)
+- ✅ **True Ownership** - Content on IPFS, records on blockchain
+- ✅ **Direct Discovery** - No algorithm middleman
+- ✅ **Censorship Resistant** - Immutable blockchain records
+- ✅ **Instant Payments** - Withdraw earnings anytime
 
 ---
 
@@ -80,28 +80,27 @@ Glamora provides:
 
 ### Smart Contracts (Solidity)
 
-**GlamoraHub.sol** - The Brain
+**GlamoraHub.sol - The Brain**
 - Manages creator registry
 - Validates creator status
 - Coordinates between contracts
 
-**CreatorProfile.sol** - The Identity  
+**CreatorProfile.sol - The Identity**
 - Stores creator information
 - Manages profile metadata
 - Links wallet addresses to identities
 
-**ContentPayment.sol** - The Money
+**ContentPayment.sol - The Money**
 - Handles content uploads
 - Processes purchases
 - Manages revenue distribution
 
 ### Frontend Stack
-
-- **React 18** with TypeScript
-- **Vite** for fast builds
-- **ethers.js v5** for blockchain interaction
-- **Custom CSS** with luxury design system
-- **MetaMask** integration
+- React 18 with TypeScript
+- Vite for fast builds
+- ethers.js v5 for blockchain interaction
+- Custom CSS with luxury design system
+- MetaMask integration
 
 ### Storage Layer
 
@@ -116,12 +115,9 @@ Glamora provides:
 ## Getting Started
 
 ### Prerequisites
-
-```
-Node.js v20 or higher
-MetaMask browser extension
-DEV tokens from Moonbase Alpha faucet
-```
+- Node.js v20 or higher
+- MetaMask browser extension
+- DEV tokens from Moonbase Alpha faucet
 
 ### Installation
 
@@ -144,8 +140,9 @@ cd ..
 
 **3. Configure environment**
 
-# Create a .env file in root directory
-echo "PRIVATE_KEY=your_moonbase_private_key" > .env
+Create a `.env` file in the root directory with:
+```
+PRIVATE_KEY=your_moonbase_private_key
 ```
 
 **4. Deploy contracts (optional - already deployed)**
@@ -209,18 +206,16 @@ Full dependency lists available in `package.json` files.
 ### Moonbase Alpha Testnet
 
 **Verified Contracts:**
-```
-GlamoraHub:      0x4fe1D1b42E734c52365C0DdF2C94bf34f6e07115
-CreatorProfile:  0x17D58639c871D848e31597372056CBb548F3fE93  
-ContentPayment:  0x86eC3e58B69e9975d572d099814c2F470E18b2e6
-```
+- **GlamoraHub:** `0x4fe1D1b42E734c52365C0DdF2C94bf34f6e07115`
+- **CreatorProfile:** `0x17D58639c871D848e31597372056CBb548F3fE93`
+- **ContentPayment:** `0x86eC3e58B69e9975d572d099814c2F470E18b2e6`
 
-View on [Moonscan Explorer](https://moonbase.moonscan.io)
+[View on Moonscan Explorer](https://moonbase.moonscan.io)
 
 **Network Details:**
-- Chain ID: 1287
-- RPC: https://rpc.api.moonbase.moonbeam.network
-- Currency: DEV (testnet token)
+- **Chain ID:** 1287
+- **RPC:** https://rpc.api.moonbase.moonbeam.network
+- **Currency:** DEV (testnet token)
 
 ---
 
@@ -252,7 +247,7 @@ View on [Moonscan Explorer](https://moonbase.moonscan.io)
 
 ## Design Philosophy
 
-**Fashion meets functionality.**
+Fashion meets functionality.
 
 - **Dark Luxury** - #0a0a0a background
 - **Gold Accents** - #d4af37 for prestige
@@ -267,9 +262,8 @@ Every pixel intentional. Every interaction smooth.
 ## Testing Guide
 
 ### Test as Creator
-
 1. Navigate to app in browser
-2. Click "Connect Wallet" 
+2. Click "Connect Wallet"
 3. Approve MetaMask connection
 4. Click "Creator Hub"
 5. Register with username and bio
@@ -279,11 +273,10 @@ Every pixel intentional. Every interaction smooth.
    - Set price (e.g., 0.01 DEV)
    - Select image/video file
    - Click "Upload Content"
-8. Confirm IPFS upload and blockchain transaction
-9. See your content in dashboard!
+   - Confirm IPFS upload and blockchain transaction
+8. See your content in dashboard!
 
 ### Test as User
-
 1. Click "Explore" in navigation
 2. Browse available content
 3. Click any content card
@@ -296,8 +289,7 @@ Every pixel intentional. Every interaction smooth.
 **Real Test Data:**
 - "glamorafashion" - Fashion tutorial (0.01 DEV)
 - "Vintage square" - Fashion photo (0.01 DEV)
-
-Both fully viewable on IPFS!
+- Both fully viewable on IPFS!
 
 ---
 
@@ -322,7 +314,7 @@ Both fully viewable on IPFS!
 ### IPFS Verification
 ![IPFS on Pinata](./images/pinata.png)
 *Content stored and verified on IPFS via Pinata*
-```
+
 ---
 
 ## Build Journey
@@ -370,7 +362,6 @@ A working decentralized marketplace where creators upload in seconds, content li
 - Learning: Test with DevTools closed
 
 ### What I'd Do Differently
-
 - Start with proper TypeScript types from day one
 - Write contract tests before deployment
 - Use Remix IDE for faster contract debugging
@@ -382,13 +373,27 @@ A working decentralized marketplace where creators upload in seconds, content li
 
 I chose Moonbeam because:
 
-**EVM Compatible** - My Solidity skills transferred perfectly  
-**Fast & Cheap** - Uploads cost pennies, confirm in seconds  
-**Great Documentation** - Clear examples, active community  
-**Real Substrate** - Connected to Polkadot ecosystem  
-**Production Ready** - Not just a testnet toy  
+- **EVM Compatible** - My Solidity skills transferred perfectly
+- **Fast & Cheap** - Uploads cost pennies, confirm in seconds
+- **Great Documentation** - Clear examples, active community
+- **Real Substrate** - Connected to Polkadot ecosystem
+- **Production Ready** - Not just a testnet toy
 
 Moonbase Alpha handled everything I threw at it. Zero downtime. Fast confirmations. Perfect for content platforms.
+
+---
+
+## Platform Sustainability
+
+**Current Implementation:** Creators receive 100% to demonstrate zero-fee capability.
+
+**Production Options:**
+- Optional 2-5% platform fee (still 90%+ better than Web2)
+- Covers IPFS pinning, gas optimization, development
+- Community governance for fee decisions
+- Premium features for advanced creators
+
+This proves the technology works. Business model is flexible and community-driven.
 
 ---
 
@@ -442,7 +447,7 @@ glamora-polkadot/
 
 ## Demo Video
 
-[Link to demo video - Coming soon]
+*Coming soon - full walkthrough of platform features*
 
 ---
 
@@ -469,7 +474,7 @@ Built solo but learned from:
 - **Twitter**: @ter_chimbiv
 - **Email**: dredgeclassics@gmail.com
 
-Built with by Timothy Terese Chimbiv
+Built by Timothy Terese Chimbiv
 
 *"In Web3, creators own the means of production."*
 
@@ -492,4 +497,3 @@ This project demonstrates how Polkadot's technology stack (through Moonbeam) cre
 - Fully transparent on-chain
 - No gatekeepers
 - Permissionless participation
-
